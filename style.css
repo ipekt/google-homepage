@@ -77,6 +77,11 @@ a {
 	font-weight: bold;
 	margin-right: 25px;
 }
+
+#gallery-icon {
+	padding-top: 16px;
+	margin: 0;
+}
 .search {
 	margin: 0 auto;
 	clear: both;
