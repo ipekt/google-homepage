@@ -70,7 +70,13 @@ a {
 	margin-right: 8px;
 }
 
-
+#sign-in{
+	background-color: blue;
+	padding: 9px 12px;
+	color: white;
+	font-weight: bold;
+	margin-right: 25px;
+}
 .search {
 	margin: 0 auto;
 	clear: both;
@@ -120,11 +126,13 @@ footer {
 	font-family: arial, sans-serif;
 	color: black;
 	font-size: 0.8em;
+	position: fixed;
+	bottom: 0;
 }
 
 footer li {
 	display: inline-block;
-	padding: 10px 10px 2px;
+	padding: 14px 7px 2px;
 
 }
 
@@ -137,7 +145,7 @@ footer ul {
 .left-footer {
 	float: left;
 	height: 35px;
-	width: 40%;
+	width: 600px;
 	padding-left: 20px;
 }
 
@@ -146,7 +154,7 @@ footer ul {
 .right-footer {
 	float: right;
 	height: 35px;
-	width: 32%;
+	width: 370px;
 }
 
 .group:before,
